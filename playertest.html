@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Drawing Canvas - Daniel's Website</title>
+<link rel="shortcut icon" href="/lion_icon.ico">
+ 
+   <script type="text/javascript">
+function showplayer() { 
+
+  // Unhide the <div> that holds the <img>, so the picture is now visible.
+  var imageContainer = document.getElementById("playercontainer");
+  imageContainer.style.display = "block";
+}
+
+function hideplayer() {  
+
+  // Hide the <div> that holds the <img>, so the picture is now visible.
+  var imageContainer = document.getElementById("playercontainer");
+  imageContainer.style.display = "none";
+}
+
+   </script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#CCCCFF" text="#000000" link="#9966ff" vlink="#CC66CC" alink="#ff9900">
+
+<div class="center">
+
+<div style="height:40px;width:800px;background-color:#ffffff;border:3px solid #000000;">
+ <button onclick="showplayer()" accesskey="s"><u>S</u>ave Drawing</button>
+<img src="play.png "onclick="showplayer()" accesskey="s">
+</div>
+
+<div id="playercontainer" class="center">
+<div class="center" style="height:30px;width:800px;background-color:#ffffff;border:3px solid #000000;border-bottom:0px;">
+<p class="right"><button onclick="hideplayer()">X</button></p>
+</div>
+
+<div class="center" style="height:300px;width:800px;background-color:#ffffff;border:3px solid #000000;border-top:0px;">
+<div style="height:240px;width:320px;background-color:#ffffff;border:3px solid #000000;">
+
+</div>
+<p class="center">Right-click to save ...</p>
+</div>
+</div>
+<br>
+
+</body>
+</html>

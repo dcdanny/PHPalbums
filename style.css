@@ -1,0 +1,120 @@
+body
+{
+background-color:#CCCCFF;
+font-family:Arial,Helvetica,Verdana,sans-serif;
+}
+
+.largetext
+{
+font-size:120%;
+}
+
+.headtext
+{
+font-size:200%;
+}
+
+.centerwhite
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+text-align:center;
+background-color:#ffffff;
+}
+
+.centerblockwhite
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+background-color:#ffffff;
+}
+.header
+{
+width:100%;
+text-align:center;
+background-image:url('bgfade.png');
+background-size:100% 100%;
+height:180px;
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+.centertext
+{
+text-align:center;
+}
+
+.centerblock
+{
+margin-left:auto;
+margin-right:auto;
+}
+
+.albuminfo
+{
+margin-left:auto;
+margin-right:auto;
+width:320px;
+text-align:left;
+background-color:#ffffff;
+}
+
+.tracks
+{
+margin-left:auto;
+margin-right:auto;
+width:85%;
+text-align:left;
+background-color:#ffffff;
+}
+
+
+.left
+{
+float:left;
+}
+
+.right
+{
+float:right;
+}
+
+.Button {
+	background-color:#ff6633;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	line-height:30px;
+/*	width:20px;
+	height:20px;*/
+	text-decoration:none;
+	text-align:center;
+}.Button:hover {
+	background-color:#cc3300;
+}.Button:active {
+	position:relative;
+	top:1px;
+}
